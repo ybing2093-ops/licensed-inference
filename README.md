@@ -142,5 +142,3 @@ Include:
 * gating configuration + thresholds
 * raw JSONL logs + plots/CSV generated under `EVAL.md`
 
-```
-```
