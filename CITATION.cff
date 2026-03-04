@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata."
+title: "Licensed Inference: Self-Check & Gating (Reference Skeleton)"
+type: software
+authors:
+  - family-names: "Zhao"
+    given-names: "Zihe"
+    orcid: "https://orcid.org/0009-0008-4692-4408"
+repository-code: "https://github.com/ybing2093-ops/licensed-inference"
+url: "https://ybing2093-ops.github.io/"
+license: "MIT"
+version: "0.1.0"
+date-released: "2026-03-05"
+references:
+  - type: article
+    title: "Endpoint-Path Gaps QED"
+    doi: "10.5281/zenodo.18414030"
+  - type: article
+    title: "Psi-Delta Structural Gaps"
+    doi: "10.5281/zenodo.18456597"
+  - type: article
+    title: "Why Hierarchical Attention Works"
+    doi: "10.5281/zenodo.18810251"
