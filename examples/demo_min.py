@@ -25,10 +25,12 @@ def main():
         logits = rng.standard_normal(1000).astype(np.float32)  # pretend vocab size
         stats = compute_logits_stats(logits, topk_k=10)
         r = ctrl.infer(stats, tool_available=False)
+
         print("=" * 80)
         print("PROMPT:", p)
         print("STATUS:", r.status, "ACTION:", r.action, "license_score:", round(r.license_score, 4))
         print("META:", r.meta)
+
         results.append(r)
         ids.append(f"ex{i}")
 
