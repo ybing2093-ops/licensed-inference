@@ -1,4 +1,4 @@
-````markdown
+
 # Licensed Inference — companion repo (v0.1)
 
 This repository provides an **executable instance** (reference skeleton) of the theory developed in the author's *Structural Gaps* papers.  
